@@ -1,6 +1,6 @@
 # Introduction
 
-This script is used to turn on and off a particular remapping of the keyboard keys. It displays an icon on the top bar showing when the remap is on. It also creates a system wide keybind ("Ctrl+[" is e one I use) to quickly turn the remap on and off.
+It was created and tested to work on ubuntu 16+. This script is used to turn on and off a particular remapping of the keyboard keys. It displays an icon on the top bar showing when the remap is on. It also creates a system wide keybind ("Ctrl+[" is e one I use) to quickly turn the remap on and off.
 
 Dependencies:
 
@@ -29,8 +29,3 @@ I use an additional setup to work on chorme in all situations, including pdfs, a
 - Ctrl+t => t : new tab
 
 # Enjoy !
-some lines in the file "~/.xbindkeysrc" and comment it when you turn off the keyboard configuration you want to use and uncomment it
-
-The remapping just by commenting and uncommenting 
-
-happens as follows. The script uses xbindkeys 

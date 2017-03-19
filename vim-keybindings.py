@@ -117,8 +117,8 @@ def main():
     indicator=Indicator()
     notify.init(indicator.app)
     ## keybinding
-    ## keystr = "<Ctrl>bracketleft"
-    keystr = "<Ctrl>l"
+    keystr = "<Ctrl>bracketleft"
+    ## keystr = "<Ctrl>l"
     kbd.init()
     kbd.bind(keystr, indicator.switch_state)
 
