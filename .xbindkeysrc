@@ -1,0 +1,70 @@
+## For the benefit of emacs users: -*- shell-script -*-
+############################
+## xbindkeys configuration #
+############################
+## Author: Diogo Ferrari
+## 
+## put this file on ~/
+## 
+## for xbindkeys
+## --------------
+## http://www.nongnu.org/xbindkeys/
+##
+## To specify a key, you can use 'xbindkeys --key' or
+## 'xbindkeys --multikey' and put one of the two lines in this file.
+##
+## The format of a command line is:
+##    "command to start"
+##       associated key
+##
+##
+## A list of keys is in /usr/include/X11/keysym.h and in
+## /usr/include/X11/keysymdef.h
+## The XK_ is not needed.
+##
+## List of modifier:
+##   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+##   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+##
+##
+## The release modifier is not a standard X modifier, but you can
+## use it if you want to catch release events instead of press events
+##
+## By defaults, xbindkeys does not pay attention with the modifiers
+## NumLock, CapsLock and ScrollLock.
+## Uncomment the lines above if you want to pay attention to them.
+##
+## keystate_numlock = enable
+## keystate_capslock = enable
+## keystate_scrolllock= enable
+##
+## 
+## for xvkbd
+## ---------
+## http://t-sato.in.coocan.jp/xvkbd/#misc
+##
+
+"xbindkeys_show" 
+  control+shift + q
+
+
+## to use in chrome
+## ----------------
+#"xvkbd -xsendevent -text "\C\S\[ISO_Left_Tab]""  #% previous tab 
+#  Shift+Mod2+j
+#"xvkbd -xsendevent -text "\C\t""    #% next tab 
+#  Shift+Mod2+k
+#"xvkbd -xsendevent -text "\Cs""     #% save file
+#  z
+#"xvkbd -xsendevent -text "\[Page_Down]""   
+#  m
+#"xvkbd -xsendevent -text "\[Page_Up]"" 
+#  comma
+#"xvkbd -xsendevent -text "\[Up]""   
+#  k
+#"xvkbd -xsendevent -text "\[Down]"" 
+#  j
+#"xvkbd -xsendevent -text "\Ct"" 
+#  t
+#"xvkbd -xsendevent -text "\Cw"" 
+#  q
